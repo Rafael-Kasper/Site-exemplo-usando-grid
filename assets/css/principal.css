@@ -1,0 +1,68 @@
+.banner{
+
+    position: relative;
+}
+
+.banner__img {
+
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+    
+}
+
+.banner__titulo {
+
+    color: #fdfdfd;
+    font-family: "Pacifico", cursive;
+    
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top:50%;
+    font-weight: 400;
+
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.sobre {
+
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sobre__titulo {
+
+    color: #8D0606;
+    font-family: Pacifico, cursive;
+    font-size: 4rem;
+    
+    
+    text-align: center;
+    font-weight: 400;
+    
+
+    width: 100%;
+
+}
+
+.sobre__descricao {
+
+    
+    font-family: Roboto;
+    font-weight: 300;
+    text-align: center;
+    
+    
+    color: #8C8888;
+   
+
+
+}
